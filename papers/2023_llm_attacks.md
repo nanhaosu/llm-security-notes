@@ -62,8 +62,6 @@ Metrics:
 
 ## My Understanding
 
-## My Understanding
-
 This paper studies the vulnerability of aligned large language models against jailbreak attacks.
 
 Alignment methods such as RLHF can make models generate safer responses by learning human preferences, but these methods cannot guarantee complete security.
@@ -74,6 +72,13 @@ Compared with manually designed jailbreak prompts, these universal and transfera
 
 This work reveals that improving LLM safety requires not only better alignment methods, but also stronger evaluation and defense mechanisms。
 
+## Technical Understanding
+
+The key idea of GCG is to optimize adversarial suffix tokens instead of modifying model parameters.
+
+The algorithm uses gradient information to search for token replacements that reduce the loss of refusal responses.
+
+This shows that LLM inputs can be optimized as attack surfaces, revealing vulnerabilities in current alignment mechanisms.
 ## Research Questions
 
 Possible future directions:
