@@ -62,8 +62,17 @@ Metrics:
 
 ## My Understanding
 
-(Write your own understanding here)
+## My Understanding
 
+This paper studies the vulnerability of aligned large language models against jailbreak attacks.
+
+Alignment methods such as RLHF can make models generate safer responses by learning human preferences, but these methods cannot guarantee complete security.
+
+The authors show that automatically optimized adversarial suffixes can bypass the safety mechanisms of aligned models.
+
+Compared with manually designed jailbreak prompts, these universal and transferable attacks can reduce the effort required to attack different models.
+
+This work reveals that improving LLM safety requires not only better alignment methods, but also stronger evaluation and defense mechanisms.
 
 ## Research Questions
 
