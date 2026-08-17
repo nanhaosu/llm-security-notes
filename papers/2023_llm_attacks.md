@@ -79,7 +79,22 @@ The key idea of GCG is to optimize adversarial suffix tokens instead of modifyin
 The algorithm uses gradient information to search for token replacements that reduce the loss of refusal responses.
 
 This shows that LLM inputs can be optimized as attack surfaces, revealing vulnerabilities in current alignment mechanisms.
+
 ## Research Questions
+
+After reading this paper, I am interested in several questions:
+
+1. Why do adversarial suffixes transfer across different LLMs?
+   
+   Understanding the shared vulnerabilities among aligned models may help build more robust safety mechanisms.
+
+2. How can we defend against automated jailbreak attacks such as GCG?
+
+   Possible directions include adversarial training, attack detection, and robust alignment methods.
+
+3. Why are current alignment methods vulnerable to small input perturbations?
+
+   Studying this problem may improve the theoretical understanding of LLM safety and reliability.
 
 Possible future directions:
 
